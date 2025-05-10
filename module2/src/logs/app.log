@@ -1,0 +1,5 @@
+2025-05-10 21:43:07.579 | INFO     | __main__:main:6 - running the application...
+2025-05-10 21:43:07.580 | INFO     | model.model_service:load_model:31 - checking the existence of model config file at model/models/rf_db_v2
+2025-05-10 21:43:07.580 | INFO     | model.model_service:load_model:39 - model rf_db_v2 exists! -> loading model configuration file
+2025-05-10 21:43:07.584 | INFO     | model.model_service:predict:47 - making prediction!
+2025-05-10 21:43:07.590 | INFO     | __main__:main:21 - prediction = [2080.36715434]
