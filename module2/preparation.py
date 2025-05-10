@@ -1,4 +1,4 @@
-from collection import load_data
+from collection import load_data_from_db
 import pandas as pd
 import re
 from loguru import logger
@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 def prepare_data():
     logger.info("starting up preprocessing pipeline")
-    data = load_data()
+    data = load_data_from_db()
     data_encoded = encode_cat_cols(data)
     df = parse_garden_col(data_encoded)
     return df
