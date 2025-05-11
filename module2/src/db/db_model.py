@@ -3,8 +3,10 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 from config import db_settings
 
+
 class Base(DeclarativeBase):
     pass
+
 
 class RentApartments(Base):
     __tablename__ = db_settings.rent_apart_table_name
